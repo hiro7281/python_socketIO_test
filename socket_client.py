@@ -39,3 +39,4 @@ sio.register_namespace(MyCustomNamespace('/robotControl'))
 
 sio.connect('http://192.168.0.9:3001')
 sio.emit('hello', {'my name': 'alice'}, namespace='/robotControl')
+#developping...
